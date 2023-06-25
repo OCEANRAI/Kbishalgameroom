@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.download-item {
+    margin: 5px;
+}
+
+.download-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: cyan;
+    margin-bottom: 1px;
+    border: 2px solid;
+    border-color: white;
+}
+
+.download-item-image {
+    height: 156px;
+    border: 2px solid white;
+}
+
+.click-button {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+.download-button {
+    flex-grow: 2;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.download-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 5px 5px 15px 5px white;
+}
